@@ -6,17 +6,31 @@ Start forking and send us an email to pedro@weareimpero.com
 
 ## Your way to Impero
 
-To start we want to make sure you know your way around git, fork this repo and clone it.
+To start we want to make sure you know your way around git, clone this repository into your computer.
 
-To run the application you'll need the latest version of node.js and npm. We're pretty sure you can sort that out yourself.
+To create the application you'll need the latest version of node.js and npm. We're pretty sure you can sort that out yourself.
 
-Using the command line navigate into the project folder and run `npm test`
-As you can see we've prepared a series of unit tests to make sure our code is working as expected. Right now all the tests should be failing, by the end of this exercise you should have all the tests passing.
+All you need now is to fire up your editor of choice and complete the following tasks:
 
 ### 1 - Create a simple data store with CRUD methods
 
-To start building our website we'll first need a data store to store products, we will also need CRUD methods to allow our client to create, update and delete products from website. 
+To start building our website we'll first need a data store to create some articles, we will also need CRUD methods to allow our client to create, update and delete the articles from the website.
 
 You can choose how you're going to save this data, in memory, a database, a file or any other creative way you can think of, it's up to you.
 
-This will live inside `models/product.js`
+### 2 - Expose the CRUD methods of your new model by building an API
+
+Build an api that exposes the methods in your new model. You can use whatever library you wish, we usually use express or hapi.
+
+### 3 - Create a front end for the website
+
+Now we need something to show our articles, so let's create a simple front end. Again using your library of choice create a route that will render the list of all articles.
+
+We also need a page where we show the full article, create a new route that shows individual articles.
+
+### Optional
+
+If you want to showcase some front end javascript skills you could go ahead and build a SPA instead. Feel free to use any frameworks you like, surprise us!
+
+
+
