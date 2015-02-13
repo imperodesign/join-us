@@ -6,6 +6,8 @@ Start forking and send us an email to pedro@weareimpero.com
 
 ## Your way to Impero
 
+The goal of this test is to build a simple news website that displays articles.
+
 To start we want to make sure you know your way around git, clone this repository into your computer.
 
 To create the application you'll need the latest version of node.js and npm. We're pretty sure you can sort that out yourself.
@@ -15,6 +17,8 @@ All you need now is to fire up your editor of choice and complete the following 
 ### 1 - Create a simple data store with CRUD methods
 
 To start building our website we'll first need a data store to create some articles, we will also need CRUD methods to allow our client to create, update and delete the articles from the website.
+
+The articles should have at least, a title, body text, author, publish date and tags.
 
 You can choose how you're going to save this data, in memory, a database, a file or any other creative way you can think of, it's up to you.
 
