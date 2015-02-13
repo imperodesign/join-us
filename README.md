@@ -18,7 +18,7 @@ All you need now is to fire up your editor of choice and complete the following 
 
 To start building our website we'll first need a data store to create some articles, we will also need CRUD methods to allow our client to create, update and delete the articles from the website.
 
-The articles should have at least, a title, body text, author, publish date and tags.
+The articles should have at least a title, body text, author, publish date and tags.
 
 You can choose how you're going to save this data, in memory, a database, a file or any other creative way you can think of, it's up to you.
 
